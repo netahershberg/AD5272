@@ -8,8 +8,8 @@ While not mandatory, FTDI was part of the environment I worked with, enabling a 
 🖧 Through the FTDI lines, we implemented **I²C communication**, mapping the pins to act as **SDA** and **SCL**.  
 This allowed the computer to drive I²C transactions directly to the physical bus.
 
-This first requires working with the FTDI functions in C++, can find all the neccesry function in this repostiry - the main change will be under i2c_test. need to cahnge the address acording to your setup and the words you would like to send.
-🐍 Once that is set up and working, a Python wrapper can be used
+The first step is to work with the FTDI functions in C++. All the necessary functions can be found in this repository — the main changes are under i2c_test, where you’ll need to adjust the I²C address according to your setup and the data (words) you want to send.
+<img src="https://www.python.org/static/community_logos/python-logo.png" width="100"/> Once this is configured and tested, a Python wrapper can be used for easier interaction.
 
 📷 Below is the schematic illustrating the connection.
 
