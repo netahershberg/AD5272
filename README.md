@@ -1,12 +1,15 @@
 # AD5272 C++\python
-How to activate AD5272 with I2C&amp;python using FTDI's  function
+📝 How to activate AD5272 with I2C&amp;python using FTDI's  function
 
 ### 🔌 Part 1 – Initialize FTDI Communication
-In this setup, we used **FTDI** as the communication interface.  
-While not mandatory, FTDI was part of the environment I worked with, enabling a bridge between the PC and the target device.  
+🔄 In this setup, we used **FTDI** as the communication interface.  
+While not mandatory, FTDI was part of the environment I worked with, enabling a bridge between the PC and the target device as well for other peripherals on board.
 
-Through the FTDI lines, we implemented **I²C communication**, mapping the pins to act as **SDA** and **SCL**.  
+🖧 Through the FTDI lines, we implemented **I²C communication**, mapping the pins to act as **SDA** and **SCL**.  
 This allowed the computer to drive I²C transactions directly to the physical bus.
+
+This first requires working with the FTDI functions in C++, can find all the neccesry function in this repostiry - the main change will be under i2c_test. need to cahnge the address acording to your setup and the words you would like to send.
+🐍 Once that is set up and working, a Python wrapper can be used
 
 📷 Below is the schematic illustrating the connection.
 
