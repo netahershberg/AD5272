@@ -10,7 +10,8 @@ This allowed the computer to drive I²C transactions directly to the physical bu
 
 The first step is to work with the FTDI functions in C++. All the necessary functions can be found in this repository — the main changes are under i2c_test, where you’ll need to adjust the I²C address according to your setup and the data (words) you want to send.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)   Once this is configured and tested, a Python wrapper can be used for easier interaction.
+![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=yellow)
+   Once this is configured and tested, a Python wrapper can be used for easier interaction.
 
 📷 Below is the schematic illustrating the connection.
 
