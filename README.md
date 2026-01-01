@@ -33,11 +33,8 @@ The first step is to work with the FTDI functions in C++. All the necessary func
 
 **This video demonstrates the I²C write sequence to the AD5272 digital potentiometer, captured using a Saleae Logic Analyzer.  
 It highlights the process of choosing the right slave address selection  according to your setup on - board\matrix and shows the data bytes being transmitted over the bus.**
-https://github.com/netahershberg/AD5272/releases/download/v1.0/Potentiometer_final.mp4
 
-
-
-
+You can watch here the full video --> https://youtu.be/QBl_sJ1qO30
 
 https://github.com/user-attachments/assets/994c5b5e-93e7-4537-b7fe-cd90625dc2b7
 
