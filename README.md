@@ -37,6 +37,7 @@ It highlights the process of choosing the right slave address selection  accordi
 🎬 You can watch here the full video that show the process--> https://youtu.be/QBl_sJ1qO30
 
 demo here  ⬇️
+
 https://github.com/user-attachments/assets/994c5b5e-93e7-4537-b7fe-cd90625dc2b7
 
 
